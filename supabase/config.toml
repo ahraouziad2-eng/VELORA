@@ -1,0 +1,11 @@
+[functions.create-admin]
+verify_jwt = false
+
+[functions.auto-confirm-user]
+verify_jwt = false
+
+[functions.welcome-email]
+verify_jwt = false
+
+[functions.velora-ai]
+verify_jwt = false

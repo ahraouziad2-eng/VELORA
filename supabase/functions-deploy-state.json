@@ -1,0 +1,21 @@
+{
+  "projectId": "70960973",
+  "functions": {
+    "auto-confirm-user": {
+      "hasChanged": false,
+      "hash": "c01e3676885469bfb273c912780c2c42da688fa5d216d4dfe4cc764c8c7cbd31"
+    },
+    "create-admin": {
+      "hasChanged": false,
+      "hash": "735ba2be167c79aba74d65d2b6ad103e0df38610e47f266a5747430b9d7dd544"
+    },
+    "velora-ai": {
+      "hasChanged": false,
+      "hash": "f8029a76cc66575d892fd01b5015acd9732cc153c916afeaad581fa67c23f238"
+    },
+    "welcome-email": {
+      "hasChanged": false,
+      "hash": "5eb76a03843d2bece34afba8ee7f012bc05e6c0768af06dcca6e657be31386d9"
+    }
+  }
+}

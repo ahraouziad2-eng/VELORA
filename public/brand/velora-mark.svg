@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c55e"/><stop offset=".55" stop-color="#15803d"/><stop offset="1" stop-color="#14532d"/></linearGradient>
+<linearGradient id="leafL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcfce7"/><stop offset="1" stop-color="#86efac"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+<clipPath id="rr"><rect width="512" height="512" rx="116"/></clipPath>
+</defs><g transform="translate(0,6)">
+<path d="M256 392 C170 350 128 262 146 146 C240 170 292 280 256 392Z" fill="#22c55e"/>
+<path d="M256 392 C342 350 384 262 366 146 C272 170 220 280 256 392Z" fill="#14532d"/>
+<path d="M256 380 C220 320 184 250 160 170" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/>
+<path d="M256 380 C292 320 328 250 352 170" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/>
+<circle cx="256" cy="122" r="31" fill="url(#sun)"/></g></svg>

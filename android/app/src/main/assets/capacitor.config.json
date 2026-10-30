@@ -1,0 +1,14 @@
+{
+	"appId": "com.smartagriland.app",
+	"appName": "VELORA",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {
+		"backgroundColor": "#2563EB",
+		"allowMixedContent": true,
+		"webContentsDebuggingEnabled": true,
+		"hideWebViewScrollbar": true
+	}
+}

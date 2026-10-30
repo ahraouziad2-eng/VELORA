@@ -1,0 +1,24 @@
+admin_actions                  S:Y I:Y U:- D:-  | SELECT:select_admin_actions; INSERT:insert_admin_actions
+audit_logs                     S:Y I:Y U:- D:-  | SELECT:select_audit_logs_admin; INSERT:insert_audit_logs
+contract_parties               S:Y I:Y U:- D:-  | SELECT:select_own_contract_parties,select_contract_parties_admin; INSERT:insert_contract_parties
+contracts                      S:Y I:Y U:Y D:-  | SELECT:select_own_contracts,select_all_contracts_admin; INSERT:insert_contracts; UPDATE:update_contracts_admin
+conversation_participants      S:Y I:Y U:- D:-  | SELECT:select_own_conversation_participants; INSERT:insert_conversation_participants
+conversations                  S:Y I:Y U:Y D:-  | SELECT:select_own_conversations; INSERT:insert_conversations; UPDATE:update_own_conversations
+favorites                      S:Y I:Y U:- D:Y  | SELECT:select_own_favorites; INSERT:insert_own_favorites; DELETE:delete_own_favorites
+land_documents                 S:Y I:Y U:- D:Y  | SELECT:select_own_land_documents,select_all_land_documents_admin; INSERT:insert_own_land_documents; DELETE:delete_own_land_documents
+land_images                    S:Y I:Y U:- D:Y  | SELECT:select_all_land_images_admin,select_own_land_images,select_land_images_published; INSERT:insert_own_land_images; DELETE:delete_own_land_images
+land_investment_requests       S:Y I:Y U:Y D:-  | SELECT:select_investment_requests_land_owner,select_own_investment_requests,select_all_investment_requests_admin; INSERT:insert_investment_requests; UPDATE:update_investment_requests_admin,update_own_investment_requests
+lands                          S:Y I:Y U:Y D:Y  | SELECT:select_published_lands,select_all_lands_admin,select_own_lands; INSERT:insert_own_lands; UPDATE:update_own_lands,update_lands_admin; DELETE:delete_own_lands
+legal_requests                 S:Y I:Y U:Y D:-  | SELECT:select_all_legal_requests_admin,select_own_legal_requests; INSERT:insert_own_legal_requests; UPDATE:update_own_legal_requests,update_legal_requests_admin
+legal_services                 S:Y I:- U:- D:-  | SELECT:select_legal_services
+messages                       S:Y I:Y U:Y D:-  | SELECT:select_own_messages; INSERT:insert_own_messages; UPDATE:update_own_messages
+notifications                  S:Y I:Y U:Y D:Y  | SELECT:select_own_notifications; INSERT:insert_own_notifications; UPDATE:update_own_notifications; DELETE:delete_own_notifications
+partnership_requests           S:Y I:Y U:Y D:-  | SELECT:select_partnership_requests_land_owner,select_own_partnership_requests,select_all_partnership_requests_admin; INSERT:insert_partnership_requests; UPDATE:update_own_partnership_requests,update_partnership_requests_admin
+payments                       S:Y I:Y U:- D:-  | SELECT:select_own_payments; INSERT:insert_own_payments
+profiles                       S:Y I:- U:Y D:-  | SELECT:select_own_profile,select_all_profiles_admin; UPDATE:update_own_profile
+project_updates                S:Y I:Y U:- D:-  | SELECT:select_project_updates; INSERT:insert_project_updates
+projects                       S:Y I:Y U:Y D:-  | SELECT:select_projects_published,select_own_projects,select_all_projects_admin; INSERT:insert_own_projects; UPDATE:update_own_projects
+rental_requests                S:Y I:Y U:Y D:-  | SELECT:select_all_rental_requests_admin,select_own_rental_requests,select_rental_requests_land_owner; INSERT:insert_rental_requests; UPDATE:update_own_rental_requests,update_rental_requests_admin
+reports                        S:Y I:Y U:Y D:-  | SELECT:select_all_reports_admin,select_own_reports; INSERT:insert_own_reports; UPDATE:update_reports_admin
+reviews                        S:Y I:Y U:- D:Y  | SELECT:select_reviews; INSERT:insert_own_reviews; DELETE:delete_own_reviews
+users_roles                    S:Y I:Y U:Y D:Y  | SELECT:select_all_roles_admin,select_own_roles; INSERT:insert_role_super_admin; UPDATE:update_role_super_admin; DELETE:delete_role_super_admin

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c55e"/><stop offset=".55" stop-color="#15803d"/><stop offset="1" stop-color="#14532d"/></linearGradient>
+<linearGradient id="leafL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dcfce7"/><stop offset="1" stop-color="#86efac"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+<clipPath id="rr"><rect width="512" height="512" rx="116"/></clipPath>
+</defs><rect width="800" height="800" fill="#fff"/><g transform="translate(144,40) scale(1)"><rect width="512" height="512" rx="116" fill="url(#bg)"/><g clip-path="url(#rr)" fill="none" stroke="#fff" stroke-linecap="round"><path d="M-20 452 Q256 395 532 452" stroke-opacity=".16" stroke-width="12"/><path d="M-20 488 Q256 431 532 488" stroke-opacity=".10" stroke-width="12"/><circle cx="470" cy="40" r="150" fill="#fff" fill-opacity=".05" stroke="none"/></g><g transform="translate(0,6)">
+<path d="M256 392 C170 350 128 262 146 146 C240 170 292 280 256 392Z" fill="url(#leafL)"/>
+<path d="M256 392 C342 350 384 262 366 146 C272 170 220 280 256 392Z" fill="#ffffff"/>
+<path d="M256 380 C220 320 184 250 160 170" fill="none" stroke="#15803d" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/>
+<path d="M256 380 C292 320 328 250 352 170" fill="none" stroke="#15803d" stroke-opacity=".35" stroke-width="6" stroke-linecap="round"/>
+<circle cx="256" cy="122" r="31" fill="url(#sun)"/>
+</g></g><text x="400" y="640" font-family="sans-serif" font-size="110" font-weight="700" fill="#14532d" text-anchor="middle" letter-spacing="8">VELORA</text><rect x="325" y="670" width="150" height="8" rx="4" fill="#d97706"/><text x="400" y="730" font-family="sans-serif" font-size="28" fill="#15803d" text-anchor="middle">منصة واحدة. إمكانات لا حدود لها.</text></svg>
